@@ -104,8 +104,6 @@ GBM:  Accuracy 97%  Sensitivity >=  94.5%  Specificity      99%
 DT:   Accuracy 49%  Sensitivity >=  0%     Specificity  >=  77%
 RF:   Accuracy 100% Sensitivity     100%   Specificity     100%
 
-Chose GBM due to RF overfitting.
-
 #### Results:
 ##### GBM
 Confusion Matrix and Statistics
@@ -205,6 +203,8 @@ Prevalence             0.2875   0.1932   0.1736   0.1657   0.1799
 Detection Rate         0.2875   0.1932   0.1736   0.1657   0.1799
 Detection Prevalence   0.2875   0.1932   0.1736   0.1657   0.1799
 Balanced Accuracy      1.0000   1.0000   1.0000   1.0000   1.0000
+
+Chose GBM due to RF overfitting.
 
 #### 6.
 predictfinal <- predict(modFitGBM, testing)
